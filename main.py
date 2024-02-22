@@ -72,7 +72,7 @@ def _quadratic_multiply(x, y):
     
 def test_quadratic_multiply(x, y, f):
     start = time.time()
-    f(BinaryNumber(x), BinaryNumber(y)
+    f(BinaryNumber(x), BinaryNumber(y))
     return (time.time() - start)*1000
 
 
